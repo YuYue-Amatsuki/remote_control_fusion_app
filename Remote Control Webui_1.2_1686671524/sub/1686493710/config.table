@@ -1,0 +1,141 @@
+{
+  ["sidebar"]	= {
+      ["items"]	= {
+          [1]	= {
+              ["icon"]	= "drawable/earth.png" ;
+              ["onClick"]	= "退出页面()" ;
+              ["name"]	= "外网" ;
+              } ;
+          [2]	= {
+              ["onClick"]	= "打开应用(\"com.sonelli.juicessh\")" ;
+              ["icon"]	= "drawable/ubuntu.png" ;
+              ["name"]	= "SSH" ;
+              } ;
+          [3]	= {
+              ["onClick"]	= "打开应用(\"com.gaurav.avnc\")" ;
+              ["icon"]	= "drawable/cellphone_link.png" ;
+              ["name"]	= "AVNC" ;
+              } ;
+          [4]	= {
+              ["onClick"]	= "打开应用(\"com.realvnc.viewer.android\")" ;
+              ["icon"]	= "drawable/cellphone_link.png" ;
+              ["name"]	= "RealVNC Viewer" ;
+              } ;
+          [5]	= {
+              ["onClick"]	= "打开应用(\"com.microsoft.rdc.androidx\")" ;
+              ["icon"]	= "drawable/windows.png" ;
+              ["name"]	= "RDP" ;
+              } ;
+          } ;
+      ["启用"]	= true ;
+      ["启用顶部图片"]	= true ;
+      } ;
+  ["switch"]	= {
+      ["横屏"]	= false ;
+      ["启用启动图"]	= false ;
+      ["支持滑动页面"]	= false ;
+      ["显示状态栏"]	= true ;
+      } ;
+  ["events"]	= {
+      ["收到新标题"]	= "--浏览器加载新页面并获得新标题时执行的事件\
+\
+--接收参数\
+浏览器对象,新标题=..." ;
+      ["网页加载完毕"]	= "--网页加载完毕后执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      ["程序启动"]	= "srLayout0.setEnabled(false)--直接禁用，无法下拉\
+srLayout1.setEnabled(false)--直接禁用，无法下拉\
+srLayout2.setEnabled(false)--直接禁用，无法下拉\
+srLayout3.setEnabled(false)--直接禁用，无法下拉\
+srLayout4.setEnabled(false)" ;
+      ["网页即将加载"]	= "--浏览器即将加载新的网页时执行的事件\
+\
+--接收参数\
+浏览器对象,网页链接=..." ;
+      } ;
+  ["tab_bar"]	= {
+      ["items"]	= {
+          [1]	= {
+              ["url"]	= "http://192.168.1.4:23333" ;
+              ["name"]	= "MCSM-Ubuntu" ;
+              } ;
+          [2]	= {
+              ["url"]	= "http://192.168.1.7:23333" ;
+              ["name"]	= "MCSM-Windows" ;
+              } ;
+          [3]	= {
+              ["url"]	= "http://192.168.1.4:10147/yuyue_bt/" ;
+              ["name"]	= "宝塔Ubuntu" ;
+              } ;
+          [4]	= {
+              ["url"]	= "http://192.168.1.7:30550/yuyue_bt/" ;
+              ["name"]	= "宝塔Windows" ;
+              } ;
+          [5]	= {
+              ["url"]	= "http://192.168.1.4:5700" ;
+              ["name"]	= "青龙面板" ;
+              } ;
+          } ;
+      } ;
+  ["toolbar"]	= {
+      ["icon_btns"]	= {
+          [1]	= {
+              ["icon"]	= "close" ;
+              ["onClick"]	= "退出程序()" ;
+              } ;
+          } ;
+      ["menus"]	= {
+          } ;
+      ["搜索框提示"]	= "输入关键词搜索.." ;
+      ["启用搜索功能"]	= false ;
+      ["搜索URL"]	= "" ;
+      ["输入栏模式"]	= false ;
+      } ;
+  ["web_control"]	= {
+      } ;
+  ["web"]	= {
+      ["启用长按菜单"]	= true ;
+      ["支持打开外部应用"]	= false ;
+      ["启用进度条"]	= true ;
+      ["浏览器用户标识"]	= "默认" ;
+      ["网页沉浸"]	= false ;
+      ["惰性加载"]	= true ;
+      } ;
+  ["fltBtn"]	= {
+      ["点击事件"]	= "加载Js(\"location.reload( );\" )" ;
+      ["显示"]	= true ;
+      ["图标"]	= "" ;
+      } ;
+  ["colors"]	= {
+      ["悬浮按钮图标"]	= "#ffffffff" ;
+      ["标签栏滑动条"]	= "#ffffffff" ;
+      ["顶栏部件"]	= "#ffffffff" ;
+      ["悬浮按钮"]	= "#ff5cc6ff" ;
+      ["侧滑栏背景"]	= "#ffffffff" ;
+      ["侧滑栏列表图标"]	= "#ff757575" ;
+      ["搜索栏部件"]	= "#ff888888" ;
+      ["侧滑栏列表文字"]	= "#ff333333" ;
+      ["标签栏项目触摸"]	= "#33000000" ;
+      ["搜索栏提示文字"]	= "#80000000" ;
+      ["搜索栏部件触摸"]	= "#44000000" ;
+      ["标签栏文本"]	= "#ffffffff" ;
+      ["导航栏"]	= "#ff5cc6ff" ;
+      ["进度条"]	= "#ff5dc6ff" ;
+      ["搜索栏背景"]	= "#ffffffff" ;
+      ["顶栏"]	= "#ff5cc6ff" ;
+      ["顶栏部件触摸"]	= "#33ffffff" ;
+      ["状态栏"]	= "#ffffffff" ;
+      } ;
+  ["view_attribute"]	= {
+      ["顶栏标题"]	= "局域网" ;
+      ["搜索栏圆角弧度"]	= "2dp" ;
+      ["侧滑栏宽度"]	= "240dp" ;
+      ["标签栏滑动条高度"]	= "3dp" ;
+      ["标签栏高度"]	= "48dp" ;
+      ["搜索栏阴影强度"]	= "2dp" ;
+      ["顶栏阴影强度"]	= "2dp" ;
+      ["顶栏高度"]	= "56dp" ;
+      } ;
+  } ;
